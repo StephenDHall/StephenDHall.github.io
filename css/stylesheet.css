@@ -1,18 +1,18 @@
 h1 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 24px;
+    font-size: 26px;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 26.3999996185303px;
+    line-height: 1.2;
 }
-h3 {
+h2 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
-    line-height: 15.3999996185303px;
+    line-height: 1.2;
 }
 p {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -38,3 +38,15 @@ pre {
     font-weight: 400;
     line-height: 18.5714282989502px;
 }
+#top {text-align: center;
+    background-color: lightgrey;
+    height: 200px;
+    width: 900px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+#top h1 {color: #2ce371; font-weight: 800;}
+#top h2 {font-weight: 200}
