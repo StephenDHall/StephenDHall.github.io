@@ -1,27 +1,39 @@
+/* Stylesheet for FCC Web Boot Camp Day 1 */
+
+a {
+    text-decoration: none;
+    color: #3c51ff
+    }
 h1 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 26px;
+    font-size: 36px;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
     line-height: 1.2;
-}
+    }
 h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 200;
+    line-height: 1.2;
+    }
+body {
+    font-family: 'courier new',courier, sans-serif;
+    font-weight: 500;
+    color: #555;
+    }
+p {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-variant: normal;
-    font-weight: 500;
-    line-height: 1.2;
-}
-p {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-variant: normal;
     font-weight: 400;
     line-height: 20px;
-}
+    margin-bottom: 20px;
+    }
 blockquote {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 21px;
@@ -29,19 +41,25 @@ blockquote {
     font-variant: normal;
     font-weight: 400;
     line-height: 30px;
-}
+    }
 pre {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 13px;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
-    line-height: 18.5714282989502px;
-}
+    line-height: 18px;
+    }
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+/* Top Section Styling */
+
 #top {text-align: center;
-    background-color: lightgrey;
+    background-color: #cbd0d2;
     /* height: 200px;
-    width: 1000px; */
+    width: 1000px;  commented out to test change */
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
@@ -50,7 +68,34 @@ pre {
     padding-bottom: 100px;
     background: url("../images/hero-bg-dark.jpg") no-repeat center center;
     background-size: cover;
-}
+    }
 
-#top h1 {color: #2ce371; font-weight: 800;}
-#top h2 {font-weight: 200}
+#top h1 {
+    color: #2ce371;
+    font-weight: 800;
+    }
+
+#top h2 {
+    color:gold;
+    font-weight: 200;
+    }
+
+/* Universal */
+
+.skinny {
+    font-weight: 100;
+    color:#fefefe;
+    }
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+    }
+
+/* Middle Section */
+
+#ryan-image {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    }
