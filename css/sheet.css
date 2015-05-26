@@ -71,14 +71,15 @@ section {
 }
 
 #header-nav li a:hover {
-    background-color: #fefefe;
+    background-color: #f7ff2b;
+    border-radius: 10px;
 }
 
 /* Top Section Styling */
 
 #top {
     text-align: center;
-    background-color: #cbd0d2;
+    background-color: #64ced2;
     padding-top: 100px;
     padding-bottom: 100px;
     background: url('../images/hero-bg-dark.jpg') no-repeat center center;
@@ -128,15 +129,34 @@ section {
 }
 
 .one-half {
-    background-color: #fefefe;
-    border: 1px solid #ececec;
+    background-color: #fefba9;
+    border: 1px solid #9fec95;
     width: 48%;
     /*float: left;*/
     display: inline-block;
     padding: 30px 20px;
     margin: 1%;
     vertical-align: top;
+    border-radius: 15px;
 }
+
+#footer {
+    background-color: #f9eddb;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer-half {
+    background-color: #fefba9;
+    border: 1px solid #9fec95;
+    width: 48%;
+    display: inline-block;
+    padding: 30px 20px;
+    margin: 1%;
+    vertical-align: top;
+    border-radius: 15px;
 
 /* Universal */
 
@@ -151,7 +171,7 @@ section {
 }
 
 .btn {
-    background-color: #428bca;
+    background-color: #2080fe;
     border: 1px solid #357ebd;
     color: #fefefe;
     padding: 5px 10px;
@@ -159,7 +179,7 @@ section {
 }
 
 .btn:hover {
-    background-color: #357ebd;
+    background-color: #26bd4f;
 }
 
 /* clearfix */
