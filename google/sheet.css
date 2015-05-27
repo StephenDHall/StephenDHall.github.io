@@ -1,0 +1,44 @@
+body {
+    font-family: 'Helvetic Neue', Helvetic, Arial, sans-serif;
+}
+
+body, main, figure {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #80807f;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header-right {
+    /* float: right; */
+    position: absolute;
+    right: 0;
+    padding-right: 25px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding 0 10px;
+}
+#circle {
+    color: #fff;
+    background: rgba(255,00,00,1);
+    border-radius: 50% 50%;
+    display: inline-block;
+    padding: 5px 9px;
+}
+
+#circle:hover {
+    background: rgba(255,00,00,.5);
+}
