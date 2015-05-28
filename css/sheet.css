@@ -95,7 +95,7 @@ heading .container li {
     display: inline-block;
     vertical-align: top;
 }
-
+*/
 #header-nav li a {
     display: block;
     padding: 15px;
@@ -104,7 +104,7 @@ heading .container li {
 #header-nav li a:hover {
     background-color: #fefefe;
     border-radius: 5px;
-} */
+}
 
 
 /* Top Section Styling */
@@ -167,7 +167,7 @@ heading .container li {
 /* Middle Section */
 
 #stephen-image{
-    float: left;
+/*    float: left; */
     margin-right: 30px;
     margin-bottom: 20px;
     max-height: 150px;
@@ -178,6 +178,7 @@ heading .container li {
 /* Bottom Section */
 
 #bottom {
+    width: 80%;
     background-color: #f9f9f9;
     text-align: center;
 }
@@ -270,12 +271,6 @@ heading .container li {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-}
-
-.proj-container {
-    width: 900px;
-    margin: 0 auto;
-    padding-top: 30px
 }
 
 .skinny {
