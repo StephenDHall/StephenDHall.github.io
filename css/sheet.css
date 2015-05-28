@@ -8,7 +8,7 @@ body {
     font-family: 'courier new', courier, sans-serif;
     font-weight: 500;
     color: #555;
-    marin-top: 50px;
+    margin-top: 50px;
 }
 
 h1, h2, h3 {
@@ -58,15 +58,36 @@ header {
     Left: 0;
     background-color: #deecfe;
     width: 100%;
+    z-index: 999;
+    border-bottom: 1px solid #cecece;
+
 }
 
 #header-title {
-    float: left;
     padding-top: 15px;
     margin-bottom: 0;
 }
 
-#header-nav {
+header nav ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+header .container {
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+heading .container li {
+    padding: 5px;
+}
+
+/* #header-nav {
     float: right;
 }
 
@@ -83,7 +104,8 @@ header {
 #header-nav li a:hover {
     background-color: #fefefe;
     border-radius: 5px;
-}
+} */
+
 
 /* Top Section Styling */
 
@@ -240,15 +262,20 @@ header {
 }
 /* Universal */
 
-
 .container {
-    width: 970px;
+    width: 70%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 }
 
-.ft-container {
+.proj-container {
     width: 900px;
     margin: 0 auto;
+    padding-top: 30px
 }
 
 .skinny {
