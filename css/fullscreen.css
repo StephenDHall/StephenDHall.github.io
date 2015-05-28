@@ -5,7 +5,7 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 500;
     color: #555;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 a{
@@ -26,8 +26,8 @@ header{
 
 .header-flex{
     display: flex;
-    height: 50px;
-    align-items: center;
+    height: 25px;
+ /*   align-items: center; */
 }
 
 
