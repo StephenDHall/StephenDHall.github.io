@@ -56,7 +56,6 @@ header {
     height: 50px;
     top: 0;
     Left: 0;
-    background-color: #deecfe;
     width: 100%;
     z-index: 999;
     border-bottom: 1px solid #cecece;
@@ -64,7 +63,6 @@ header {
 }
 
 #header-title {
-    padding-top: 15px;
     margin-bottom: 0;
 }
 
@@ -77,13 +75,15 @@ header nav ul {
 }
 
 header .container {
+    display: flex;
+
     height: 50px;
     justify-content: space-between;
     align-items: center;
 
 }
 
-heading .container li {
+header .container li {
     padding: 5px;
 }
 
@@ -171,8 +171,13 @@ heading .container li {
     margin-right: 30px;
     margin-bottom: 20px;
     max-height: 150px;
+    min-width: 150px;
     border-radius: 10px;
     border: 1px solid #000000;
+}
+
+main section {
+    padding-top: 100px;
 }
 
 /* Bottom Section */
